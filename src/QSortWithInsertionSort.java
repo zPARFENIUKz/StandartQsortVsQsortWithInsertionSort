@@ -1,6 +1,6 @@
 public class QSortWithInsertionSort extends Standart3WayHoaresPartition{
 
-    private static int minCountToQuickSort = 100;
+    private static int minCountToQuickSort = 10;
 
     public static void quickSort(final int[] arr){
         if (arr == null) return;
